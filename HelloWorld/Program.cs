@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Hello, to calculator app!");
 int num1=0;
 int num2=0;
 Console.WriteLine("console calculator in c#\r");
