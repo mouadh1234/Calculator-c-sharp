@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Hello, to calculator app!");
-int num1=0;
-int num2=0;
+int num1 = 0;
+int num2 = 0;
 Console.WriteLine("console calculator in c#\r");
 Console.WriteLine("-------------------------\n");
 Console.WriteLine("type a number, and then press enter");
@@ -13,10 +13,10 @@ Console.WriteLine("\ts - Substract");
 Console.WriteLine("\tm - multiply");
 Console.WriteLine("\td - divide");
 Console.Write("your option ?");
-switch ( Console.ReadLine())
+switch (Console.ReadLine())
 {
     case "a":
-        Console.WriteLine($"your result: {num1} + {num2} = " + ( num1 + num2));
+        Console.WriteLine($"your result: {num1} + {num2} = " + (num1 + num2));
         break;
     case "s":
         Console.WriteLine($"your result: {num1} - {num2} = " + (num1 - num2));
